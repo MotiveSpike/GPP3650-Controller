@@ -96,7 +96,36 @@ npm start
 
 The frontend will automatically open on `http://localhost:3000`
 
-## Quick Start Guide
+## For Your Teammates: Quick Start
+
+Your teammates can get started with these 4 simple steps:
+
+```bash
+# Step 1: Clone the repository
+git clone https://github.com/MotiveSpike/GPP3650-Controller.git
+cd GPP3650-Controller
+
+# Step 2: Set up and run backend (Terminal 1)
+cd backend
+pip install -r requirements.txt
+python gpp3650_backend.py
+
+# Step 3: Set up and run frontend (Terminal 2)
+cd frontend
+npm install
+npm start
+
+# Step 4: Connect power supply
+# - Enter COM port in browser app at http://localhost:3000
+# - Click Connect
+# - Use the application!
+```
+
+That's it! The application will open automatically in your browser.
+
+---
+
+## Quick Start Guide (For Everyone)
 
 ### 1. Connect Power Supply
 - Power on your GPP-3650
